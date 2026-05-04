@@ -8,7 +8,7 @@ AUTO GI via WO PPF
 2.  Implement a classic BaDI call for GI POST in Z class
 3.  Create WO condition records
 
-Introduction
+# Introduction
 This document describes the automatic WA posting as implemented in the Pfeiffer Vacuum project.
 The automatic posting of WA documents is to be controlled via a warehouse order PPF, since the DELIVERY PPF does not provide the necessary conditions to determine the exact time for the WA posting.
 A prerequisite for implementation is a basic understanding of how background processes via PPF work and are implemented.
