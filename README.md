@@ -9,19 +9,31 @@ AUTO GI via WO PPF
 3.  Create WO condition records
 
 # Introduction
-This document describes the automatic WA posting as implemented in the Pfeiffer Vacuum project.
+This document describes the automatic GI posting as implemented in the Pfeiffer Vacuum project.
 The automatic posting of WA documents is to be controlled via a warehouse order PPF, since the DELIVERY PPF does not provide the necessary conditions to determine the exact time for the WA posting.
 A prerequisite for implementation is a basic understanding of how background processes via PPF work and are implemented.
-Brief Description
-The steps for implementation are outlined below:
-    Create Z-action definition in action profile /SCWM/WO
-    Implementation of the goods issue posting
-    Creation of condition records  
-Customizing
-Transaction    Description
-SPPFCADM    Provision of PPF application
 
-(1)    Creation of an action definition in the action profile /SCWM/WO
+# Brief Description
+The steps for implementation are outlined below:
+</> Markdown
+* Create Z-action definition in action profile /SCWM/WO
+* Implementation of the goods issue posting
+* Creation of condition records  
+
+# Customizing
+</> Markdown
+Transaktion	Beschreibung
+SPPFCADM	Bereitstellung PPF Anwendung
+| Transaction | Description                |
+|-------------|----------------------------|
+| SPPFCADM    | Providing PPF application  |
+ 
+
+<img width="929" height="338" alt="image" src="https://github.com/user-attachments/assets/0330b71c-f97d-483d-94b4-eb20d9c45e35" />
+
+ 
+
+
  
 (2)    The defined action uses a Z-method
  
