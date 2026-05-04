@@ -47,7 +47,7 @@ SPPFCADM	Bereitstellung PPF Anwendung
 # Workbench
 The following logic is used for posting goods issue:
 <img width="804" height="401" alt="image" src="https://github.com/user-attachments/assets/3b4eb53b-8bce-428d-87bb-ba67caf4903d" />
-</> Markdown
+ 
 The steps for the goods issue posting are outlined below
 (1)    Determination of runtime data from the PPF object
 (2)    Determination of the document reference (docid)
